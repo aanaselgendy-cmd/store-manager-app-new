@@ -1,0 +1,17 @@
+name: store_manager_app
+description: Arabic offline store inventory, sales, purchases and immutable activity log.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  intl: ^0.20.3
+  cupertino_icons: ^1.0.8
+flutter:
+  uses-material-design: true
